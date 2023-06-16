@@ -419,7 +419,7 @@ h3 {
 }
 
 #experience .card .col.s12.m2 a {
-  display: block;
+  display: inline-block;
 }
 
 #experience .card .col.s12.m2 a img {
