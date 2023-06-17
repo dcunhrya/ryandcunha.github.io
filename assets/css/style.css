@@ -518,7 +518,12 @@ a.hoverline:hover {
   height: 240px;
 }
 
+.card-action{
+  position: relative;
+}
+
 .card-action a.btn-floating {
+  position: absolute;
   top: 0;
   right: 0;
 }
