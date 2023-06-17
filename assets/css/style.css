@@ -529,7 +529,7 @@ a.hoverline:hover {
 }
 
 #projects a.btn-floating.btn-large {
-  display: inline-block;
+  display: block;
   text-align: center;
   /* margin: 0 auto; */
 }
