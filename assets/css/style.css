@@ -518,14 +518,20 @@ a.hoverline:hover {
   height: 240px;
 }
 
-.card-action{
+#projects .card-action{
   position: relative;
 }
 
-.card-action a.btn-floating {
+#projects .card-action a.btn-floating {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+#projects a.btn-floating.btn-large {
+  display: inline-block;
+  text-align: center;
+  /* margin: 0 auto; */
 }
 
 #contact a:not(.btn-floating) {
