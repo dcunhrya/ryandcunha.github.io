@@ -524,9 +524,8 @@ a.hoverline:hover {
 
 #projects .card-action a.btn-floating {
   position: absolute;
-  bottom: 0;
+  bottom: -20px;
   right: 0;
-  margin-bottom: 0;
 }
 
 #projects a.btn-floating.btn-large {
