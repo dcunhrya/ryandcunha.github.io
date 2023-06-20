@@ -547,7 +547,7 @@ a.hoverline:hover {
   align-items: center; /* Center the video vertically */
   max-width: 600px; /* Set the maximum width to 6 columns */
   margin: 0 auto; /* Center the video container horizontally */
-  height: 150px; /* Set the desired height */
+  height: 300px; /* Set the desired height */
 }
 
 .video-container iframe {
@@ -566,8 +566,8 @@ a.hoverline:hover {
 }
 
 .gallery img {
-  width: 500px;
-  height: 430px;
+  width: 400px;
+  height: 300px;
   margin-right: 10px;
 }
 
