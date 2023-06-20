@@ -547,8 +547,8 @@ a.hoverline:hover {
 
 .video-container iframe {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50;
+  left: 50;
   width: 50%;
   height: 50%;
 }
@@ -556,14 +556,14 @@ a.hoverline:hover {
 .gallery-container {
   width: 100%;
   overflow-x: auto;
+  white-space: nowrap; /* Prevents images from wrapping to a new line */
 }
 
 .gallery {
-  display: flex;
+  display: inline-block; /* Forces the gallery to stay in a single line */
 }
 
 .gallery img {
-  flex-shrink: 0;
   width: 300px;
   height: 200px;
   margin-right: 10px;
