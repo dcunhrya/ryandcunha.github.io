@@ -274,19 +274,24 @@
                     and it was soldered to a force sensing resistor (FSR). The microcontroller was also soldered 
                     to wires that attached to 6 LEDs. The Photon could collect data and wirelessly send it to another device via Bluetooth 
                   </p>
-                  <p style="margin-bottom: 60px;"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l6">
+              <div class="card">
+                <div class="card-content">
                   <p>
                     <span class="card-title"><a target="_blank" class="teal-text hoverline"><b>CAD</b></a></span>
                   </p>
                   <p>
                     The CAD base was an iterative process using SolidWorks. 
                     The base contained the electronic hardware of the project, and it consisted of 3 parts: 
-                    a top, a bottom, and a middle piece to consistently distribute the bottle's weight across the sensor.
-                  </p>
-                 
+                    a top, a bottom, and a middle piece to consistently distribute the bottle's weight across the sensor.</p>
                 </div>
               </div>
             </div>
+          </div>
+          <div class = "row">
             <div class="col s12 m6 l6">
               <div class="card">
                 <div class="card-content">
@@ -298,16 +303,20 @@
                     a linear regression was used.  
                     This created an optimal relationship to accurately convert the sensor readings to water consumption. 
                   </p>
-                  <p style="margin-bottom: 10px;"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l6">
+              <div class="card">
+                <div class="card-content">
                   <p>
-                    <span class="card-title"><a target="_blank" class="teal-text hoverline"><b>Code and Twilio API</b></a></span>
+                    <span class="card-title"><a target="_blank" class="teal-text hoverline"><b>Sensor Calibration</b></a></span>
                   </p>
                   <p>
                     The code for the project was written in C++. 
                     The Twilio API was used in conjunction with a webhook in order to send an hourly text message to a specified phone number. 
-                    Readings were constantly taken by the sensor, 
-                    and if the voltage readings dropped by a certain threshold, the device registered enough water had been consumed. 
-                    Otherwise LEDs would light up and a SMS would be sent. 
+                    Readings were constantly taken by the sensor,  and if the voltage readings dropped by a certain threshold, 
+                    the device registered enough water had been consumed. Otherwise LEDs would light up and a SMS would be sent.
                   </p>
                 </div>
               </div>
@@ -320,4 +329,3 @@
     </main>
 </body>
 </html>
-

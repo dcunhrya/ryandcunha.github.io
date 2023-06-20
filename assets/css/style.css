@@ -372,6 +372,11 @@ h3 {
 
 .card {
   margin-bottom: 60px;
+  flex: 1;
+}
+
+.card-container {
+  display: flex;
 }
 
 .card .role {
@@ -543,7 +548,7 @@ a.hoverline:hover {
   align-items: center; /* Center the video vertically */
   max-width: 600px; /* Set the maximum width to 6 columns */
   margin: 0 auto; /* Center the video container horizontally */
-  height: 150px; /* Set the desired height */
+  height: auto; /* Set the desired height */
 }
 
 .video-container iframe {
@@ -562,8 +567,8 @@ a.hoverline:hover {
 }
 
 .gallery img {
-  width: 900px;
-  height: 550px;
+  width: 800px;
+  height: 450px;
   margin-right: 10px;
 }
 
