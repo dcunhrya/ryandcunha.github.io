@@ -229,6 +229,7 @@
                     <p>
                       <span class="card-title"><a href="https://devpost.com/software/smart-coaster" target="_blank"><b>Devpost</b></a></span>
                     </p>
+                    <p style="margin-bottom: 20px;"></p>
                   </ul>
                 </div>
               </div>
@@ -278,10 +279,11 @@
                     <span class="card-title"><a target="_blank" class="teal-text hoverline"><b>CAD</b></a></span>
                   </p>
                   <p>
-                    The CAD base was an iterative process using SolidWorks and calipers for measurement. 
+                    The CAD base was an iterative process using SolidWorks. 
                     The base contained the electronic hardware of the project, and it consisted of 3 parts: 
                     a top, a bottom, and a middle piece to consistently distribute the bottle's weight across our sensor.
                   </p>
+                  <p style="margin-bottom: 20px;"></p>
                 </div>
               </div>
             </div>
@@ -294,18 +296,18 @@
                   <p>
                     To calibrate the sensor and find a relationship between voltage readings from the sensor and volume of water, 
                     a linear regression was used.  
-                    This created an optimal relationship to most accurately convert the sensor readings to water consumption. 
+                    This created an optimal relationship to accurately convert the sensor readings to water consumption. 
                   </p>
                   <p style="margin-bottom: 10px;"></p>
                   <p>
                     <span class="card-title"><a target="_blank" class="teal-text hoverline"><b>Code and Twilio API</b></a></span>
                   </p>
                   <p>
-                    The code for the Photon microcontroller and to integrate the whole project was written in C++. 
+                    The code for the project was written in C++. 
                     The Twilio API was used in conjunction with a webhook in order to send an hourly text message to a specified phone number. 
-                    The code is linked in the GitHub below. Readings were constantly taken by the sensor, 
-                    and if the voltage readings dropped by a certain threshold every hour, the device registered enough water had been consumed. 
-                    Otherwise the LEDs would light up and a SMS would be sent. 
+                    Readings were constantly taken by the sensor, 
+                    and if the voltage readings dropped by a certain threshold, the device registered enough water had been consumed. 
+                    Otherwise LEDs would light up and a SMS would be sent. 
                   </p>
                 </div>
               </div>
