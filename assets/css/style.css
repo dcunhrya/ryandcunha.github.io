@@ -547,12 +547,12 @@ a.hoverline:hover {
   align-items: center; /* Center the video vertically */
   max-width: 600px; /* Set the maximum width to 6 columns */
   margin: 0 auto; /* Center the video container horizontally */
-  height: 150px; /* Set the desired height */
+  height: 75px; /* Set the desired height */
 }
 
 .video-container iframe {
   width: 100%;
-  height: 50%;
+  height: 100%;
 }
 
 .gallery-container {
