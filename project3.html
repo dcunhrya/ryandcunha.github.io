@@ -179,12 +179,12 @@
             <b>[January 2022 - May 2022]</b>
           </p>     
           <p>
-            Robot using Arduino, Servo motor, and sensors to follow shapes, 
+            Robot using Arduino Mega, Servo motor, and sensors to follow shapes, 
             identify colors, distinguish between metal and plastic, and communicate wirelessly with other robots
           </p>
           <p>
             <ul>
-              <li><b>Skills:</b> Microcontrollers, C, Twilio API, Soldering, OnShape, </li>
+              <li><b>Skills:</b> Microcontrollers, C, Circuit Design </li>
             </ul>
           </p>
         </div>
@@ -194,7 +194,7 @@
         <h3 class="page-title white-text teal"></h3>
         <div class="container">
           <div class="row">
-            <div class="col s12 m6 l6">
+            <div class="col s12 m6">
               <div class="card">
                 <div class="card-content">
                   <p>
@@ -202,34 +202,21 @@
                   </p>
                   <ul>
                     <p>
-                      <b>Awards:</b>
+                      <b>Design Process:</b>
                     <ul>
-                      <li>2nd place: Health and Wellness Track</li>
-                      <li>1st place: Novice Award (First time hackathon)</li>
-                      <li>Most Creative Use of Twilio API</li>                           
+                        The engineering design process was utilized in the creation of this robot. 
+                        The robot was added upon every week starting with robot movement, then color identification, then object identification, and finally communication. 
+                        All screening matrices, scoring matrices, project timelines, and initial prototyping ideas are shown in the following reports. 
+                        All the code as well as pictures of the robot are shown with weekly status update slides are also provided.
+                    </ul>
+                    <ul>
+                        <li><a href="https://docs.google.com/document/d/1WEFi0AlT35x4qjSUaZuc8aj2zRT1S_jtJb7YVI5q3xQ/edit?usp=sharing" target="_blank">Conceptual Design Report</a></li>
+                        <li><a href="https://docs.google.com/document/d/1iXeRyCY9zb63TgKXRXg8WDrtYjQvpQtNhWcK71iCNJM/edit?usp=sharing" target="_blank">Final Design Report</a></li>
+                        <li><a href="https://docs.google.com/presentation/d/1JrMAwa_kdmNuwFU1oKMwsJp4YCK9mIAjhNMwQ5eDqbs/edit?usp=sharing" target="_blank">Update 1</a></li>
+                        <li><a href="https://docs.google.com/presentation/d/1tc-6XyASZasH02ctUVdVr_hkJssvGUk2o7RUaV8xCRE/edit?usp=sharing" target="_blank">Update 2</a></li>
+                        <li><a href="https://docs.google.com/presentation/d/1ZPGp6JOe0QCxY54bIyjMSfdisB70ekoFrswRpclGoMU/edit?usp=sharing" target="_blank">Update 3</a></li>
                     </ul>
                     </p>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div class="col s12 m6 l6">
-              <div class="card">
-                <div class="card-content">
-                  <p>
-                    <span class="card-title"><a href="https://hackduke.org/" target="_blank" class="teal-text hoverline"><b>Official Submission</b></a></span>
-                  </p>
-                  <ul>
-                    <p>
-                      <span class="card-title"><a href="https://github.com/avkrishnamurthy/SmartCoaster" target="_blank"><b>Github</b></a></span>
-                    </p>
-                    <p style="margin-bottom: 55px;"></p>
-                    <!-- blank space -->
-                    <p>
-                      <span class="card-title"><a href="https://devpost.com/software/smart-coaster" target="_blank"><b>Devpost</b></a></span>
-                    </p>
-                
                   </ul>
                 </div>
               </div>
@@ -238,8 +225,7 @@
 
           <div class="col s12 m6 l6">
                 <div class="video-container">
-                  <iframe src="https://www.youtube.com/embed/L-6ZjFuQa9M" frameborder="0" allowfullscreen></iframe>
-                  <p style="margin-bottom: -2000px;"></p>
+                  <iframe src="https://www.youtube.com/embed/7Mz0ewGIhOE" frameborder="0" allowfullscreen></iframe>
                 </div>          
           </div>
 
@@ -254,10 +240,11 @@
           </p>
           <div class="gallery-container">
             <div class="gallery">
-              <img src="assets/img/smartcoastercircuit.jpg">
-              <img src="assets/img/smartcoasterCAD.jpg">
-              <img src="assets/img/smartcoasterFinal.jpg">
-              <img src="assets/img/smartcoasterStat.jpg">
+              <img src="assets/img/finalrobot.jpeg">
+              <img src="assets/img/QTI.png">
+              <img src="assets/img/RGB.png">
+              <img src="assets/img/whiskerwire.png">
+              <img src="assets/img/LCD.png">
             </div>
             <p style="margin-bottom: 70px;"></p>
           </div>
@@ -267,13 +254,13 @@
               <div class="card">
                 <div class="card-content">
                   <p>
-                    <span class="card-title"><a target="_blank" class="teal-text hoverline"><b>Microcontroller</b></a></span>
+                    <span class="card-title"><a target="_blank" class="teal-text hoverline"><b>QTI Sensor</b></a></span>
                   </p>
                   <p>
-                    A Particle Photon microcontroller was utilized because of its Wi-Fi capabilities, 
-                    and it was soldered to a force sensing resistor (FSR). The microcontroller was also soldered 
-                    to wires that attached to 6 LEDs. The Photon could collect data and wirelessly send it to another device via Bluetooth 
-                  </p>
+                    3 QTI sensors were integrated to the robot in order to be able to follow black lines. 
+                    The circuit schematic is shown and the sensor was connected using male-female wires. 
+                    Code for this sensor consisted of function that would run if each QTI sensor got a reading equivalent to black or white
+                </p>
                 </div>
               </div>
             </div>
@@ -282,12 +269,14 @@
                 <div class="card-content">
                   <div style="padding-bottom: 27px;">
                   <p>
-                    <span class="card-title"><a target="_blank" class="teal-text hoverline"><b>CAD</b></a></span>
+                    <span class="card-title"><a target="_blank" class="teal-text hoverline"><b>RGB Sensor</b></a></span>
                   </p>
                   <p>
-                    The CAD base was an iterative process using SolidWorks. 
-                    The base contained the electronic hardware of the project, and it consisted of 3 parts: 
-                    a top, a bottom, and a middle piece to consistently distribute the bottle's weight across the sensor.</p>
+                    An RGB sensor was used to identify what color the robot was on. 
+                    The sensor was mounted on the side of the robot. 
+                    Code for this sensor consisted of if statements to flash the RGB LED a certain color 
+                    based on readings from the sensor that were experimentally determined
+                  </p>
                 </div>
                 </div>
               </div>
@@ -299,12 +288,12 @@
                 <div class="card-content">
                   <div style="margin-bottom: 80px;">
                   <p>
-                    <span class="card-title"><a target="_blank" class="teal-text hoverline"><b>Sensor Calibration</b></a></span>
+                    <span class="card-title"><a target="_blank" class="teal-text hoverline"><b>Whisker Wires</b></a></span>
                   </p>
                   <p>
-                    To calibrate the sensor and find a relationship between voltage readings from the sensor and volume of water, 
-                    a linear regression was used.  
-                    This created an optimal relationship to accurately convert the sensor readings to water consumption. 
+                    Whisker wires were used to differentiate between metal and plastic. 
+                    One wire was connected to 5V and the other wire was connected to an Arduino input pin. 
+                    Since metal is conductive and plastic isn't, touching a metal object would complete the circuit and sense a metal object.
                   </p>
                   </div>
                 </div>
@@ -314,18 +303,34 @@
               <div class="card">
                 <div class="card-content">
                   <p>
-                    <span class="card-title"><a target="_blank" class="teal-text hoverline"><b>Code and Twilio API</b></a></span>
+                    <span class="card-title"><a target="_blank" class="teal-text hoverline"><b>LCD</b></a></span>
                   </p>
                   <p>
-                    The code for the project was written in C++. 
-                    The Twilio API was used in conjunction with a webhook in order to send an hourly text message to a specified phone number. 
-                    Readings were constantly taken by the sensor,  and if the voltage readings dropped by a certain threshold, 
-                    the device registered enough water had been consumed. Otherwise LEDs would light up and a SMS would be sent.
+                    An LCD was used to display whether the object observed was either metal or plastic and communicate with other robots. 
+                    The code for communication involved bit shifting and continuously update once every robot sent out their signal.
+                    The code for the LCD involved displaying the information on a scrolling display
                   </p>
                 </div>
               </div>
             </div>
           </div>
+          <div class="row">
+            <div class="col s12 m6 l6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title"><a target="_blank" class="teal-text hoverline"><b>Arduino Code</b></a></span>
+                  </p>
+                  <p>
+                    All code for the robot was written in the Arduino IDE:
+                  </p>
+                  <p>
+                    <a href="https://github.com/dcunhrya/ECE-Robot" target="_blank">GitHub</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            </div>
 
         </div>
       </section>
