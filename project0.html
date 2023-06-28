@@ -218,6 +218,7 @@
                 <div class="col s12 m6 l6">
                   <div class="card">
                     <div class="card-content">
+                      <div style="padding-bottom: 200px;"></div>
                         <p>
                           <span class="card-title"><a target="_blank" class="teal-text hoverline"><b>GitHub</b></a></span>
                         </p>
@@ -225,12 +226,16 @@
                           <p>
                           <ul>
                             <li><a href="https://github.com/dcunhrya/BAC-on-Track" target="_blank" class="teal-text hoverline">Circuit Schematic, PCB Layout, CAD</a></li>
+                            <br>
                             <li><a href="https://github.com/dcunhrya/BAC-on-Track" target="_blank" class="teal-text hoverline">Firmware</a></li>
+                            <br>
                             <li><a href="https://github.com/dcunhrya/BAC-on-Track" target="_blank" class="teal-text hoverline">Apple App</a></li>
+                            <br>
                             <li><a href="https://github.com/dcunhrya/BAC-on-Track" target="_blank" class="teal-text hoverline">Android App</a></li>
                           </ul>
                           </p>
                         </ul>
+                    </div>
                       </div>
                   </div>
                 </div>
@@ -297,7 +302,9 @@
                     <span class="card-title"><a target="_blank" class="teal-text hoverline"><b>CAD Enclosure</b></a></span>
                   </p>
                   <p>
-                    Add
+                    A CAD enclosure was designed in OnShape and printed in PLA. It contains a housing to mount the PCB in
+                    as well as external connections for the LEDs and replaceable batteries. A universal joint was created 
+                    to make a movable tube the user can breathe into
                   </p>
                 </div>
               </div>
@@ -309,27 +316,14 @@
                     <span class="card-title"><a target="_blank" class="teal-text hoverline"><b>Software</b></a></span>
                   </p>
                   <p>
-                    Add
+                    There is an Android and Apple breathalyzer app coded in Dart and Swift respectively. Both apps used Figma
+                    to create a mock UI/UX and have indentical functionality. Apps have a display screen to view latest BAC
+                    reading as well as a library to log and track drinks consumed
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col s12 m6 l6">
-            <div class="card">
-              <div class="card-content">
-                <p>
-                  <span class="card-title"><a target="_blank" class="teal-text hoverline"><b>Microcontroller</b></a></span>
-                </p>
-                <p>
-                  Arduino Nano 33 BLE used to connect device with app via BLE. Currently coding firmware in BLE functionality and
-                  optimizing sleep modes along with interrupts. Project built in PlatformIO using nRFConnect with plans in future
-                  to use Zephyr for real-time operating system functionality
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
         <div class = "row">
           <div class="col s12 m6 l6">
             <div class="card">
@@ -348,17 +342,19 @@
           <div class="col s12 m6 l6">
             <div class="card">
               <div class="card-content">
+                <div style="padding-bottom: 80px;">
                 <p>
                   <span class="card-title"><a target="_blank" class="teal-text hoverline"><b>MQ3 Sensor</b></a></span>
                 </p>
                 <p>
-                  The MQ3 alcohol sensor is a metal oxide semiconductor. It contains an Aluminum Oxide ceramic coated with Tin Dioxide.
-                  The Aluminum Oxide and Nickel-Chromium coil comprise the heating system and the Tin Dioxide is sensative to alcohol.
-                  When Tin Dioxide layer is heated, oxygen adsorbs to the surface. In clean air, electrons on the Tin Dioxide layer
-                  attract to the oxygen. This creates a highly resistive barrier preventing current flow. 
-                  When alcohol is present, adsorbed oxygen reacts with alcohol. Electrons are then released to the Tin Dioxide layer
+                  Metal oxide semiconductor containing an AlO3 ceramic coated with SnO2.
+                  The AlO3 and Ni-Cr coil handle the sensor heating and the SnO2 measures the alcohol.
+                  When SnO2 layer is heated, oxygen adsorbs to the surface. In clean air, electrons on the SnO2 layer
+                  attract to the oxygen creating a resistive barrier preventing current flow. 
+                  Adsorbed oxygen reacts with alcohol if present. Electrons are then released to the SnO2 layer
                   and current flows freely resulting in a higher voltage output.
                 </p>
+                </div>
               </div>
             </div>
           </div>
