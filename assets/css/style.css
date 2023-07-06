@@ -54,6 +54,10 @@
   color: black;
 }
 
+.mover {
+  transform: translateY(-50%);
+}
+
 .linkedin {
   color: #0077b5;
 }
@@ -583,8 +587,8 @@ a.hoverline:hover {
 }
 
 .image-container img {
-  max-width: 70%;
-  max-height: 70%;
+  max-width: 40%;
+  max-height: 40%;
 }
 
 #contact a:not(.btn-floating) {
