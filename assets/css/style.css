@@ -531,6 +531,10 @@ a.hoverline:hover {
   position: relative;
 }
 
+.icon-mover {
+  margin-left: 20px;
+}
+
 #projects .card-action a.btn-floating {
   position: absolute;
   bottom: 0;
@@ -588,8 +592,8 @@ a.hoverline:hover {
 }
 
 .image-container1 img {
-  max-width: 40%;
-  max-height: 35%;
+  max-width: 30%;
+  max-height: 30%;
 }
 
 .image-container2 {
@@ -600,8 +604,8 @@ a.hoverline:hover {
 }
 
 .image-container2 img {
-  max-width: 40%;
-  max-height: 65%;
+  max-width: 60%;
+  max-height: 60%;
 }
 
 #contact a:not(.btn-floating) {
