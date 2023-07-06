@@ -589,7 +589,7 @@ a.hoverline:hover {
 
 .image-container1 img {
   max-width: 40%;
-  max-height: 30%;
+  max-height: 35%;
 }
 
 .image-container2 {
@@ -601,7 +601,7 @@ a.hoverline:hover {
 
 .image-container2 img {
   max-width: 40%;
-  max-height: 60%;
+  max-height: 65%;
 }
 
 #contact a:not(.btn-floating) {
