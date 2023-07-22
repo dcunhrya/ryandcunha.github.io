@@ -307,6 +307,14 @@ h3 {
   text-transform: uppercase;
 }
 
+h27 {
+  font-weight: 400;
+  margin-bottom: 0px;
+  margin-top: 0;
+  padding: 30px 40px;
+  text-transform: uppercase;
+}
+
 .section {
   padding-bottom: 30px;
   padding-top: 0;
@@ -696,6 +704,7 @@ small {
     padding: 20px 30px;
     margin-bottom: 40px;
   }
+
   .container {
     margin: 0 auto;
   }
