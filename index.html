@@ -32,6 +32,9 @@
     gtag('config', 'UA-126939217-2');
   </script>
   <script>
+    function redirectHearingAid() {
+      window.location.href = "https://ryan-dcunha.tech/hearingAid"; 
+    }
     function redirectProject0() {
       window.location.href = "https://ryan-dcunha.tech/project0"; 
     }
@@ -146,9 +149,6 @@
         4. mdi-file-attachment
         5. mdi-file-folder-shared
         -->
-        <!-- <a aria-label="Open Varad's resume in a new tab" href="#resume" target="_blank"
-          onclick="window.open('https://drive.google.com/file/d/1vYi-bMyIsZPve0x_clxY8xsDtiHiOMd3/view?usp=sharing')"
-          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a> -->
         <a aria-label="Open Ryan's resume in a new tab" href="https://drive.google.com/file/d/1L_N2x8dBXTkCRHZ6mSzlPFWEghXRswUe/view?usp=sharing" target="_blank"
         class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
       </li>
@@ -196,7 +196,7 @@
       </li>
       <li class="bold">
         <a aria-label="Open Ryan's Resume in a new tab"
-          href="https://drive.google.com/file/d/1B6MZ1z0-7NsefC3Lm_q-uhib28MTqpE9/view?usp=sharing" target="_blank"
+          href="https://drive.google.com/file/d/1L_N2x8dBXTkCRHZ6mSzlPFWEghXRswUe/view?usp=sharing" target="_blank"
           class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
       </li>
     </ul>
@@ -214,7 +214,7 @@
               <h2>Hi, I'm <span class="teal">Ryan D'Cunha.</span></h2>
               <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
               <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
-              <h5>Self-driven engineer and programmer who enjoys solving complex and challenging real-world problems.</h5>
+              <h5>Self-driven engineer and programmer who enjoys solving complex, real-world biomedical problems.</h5>
             </div>
             <div class="social">
               <a href="http://linkedin.com/in/ryan-dcunha" target="_blank">
@@ -256,16 +256,16 @@
       <h3 class="page-title white-text teal">About</h3>
       <div class="container flow-text">       
         <p>
-          I am a Biomedical Engineer and Computer Science Junior at Duke University who enjoys building and tinkering with the hardware and software of medical devices.
+          I am a Biomedical Engineering and Computer Science Junior at Duke University who enjoys building and tinkering with the hardware and software of medical devices.
 
           I have obtained most of my hardware and software knowledge from my past projects including a wearable breathalyzer, an AI squat assist device, and a smart water coaster.
 
-          In the future, I am interested in exploring innovative techniques to solve medical problems in the medical device industry and promoting accessibility to healthcare. 
+          In the future, I am interested in exploring innovative AI and engineering techniques to solve medical problems in the medical device industry and promoting accessibility to healthcare. 
         </p>
         <p>
           <ul>
             <li><b>Technical Skills:</b> Microcontrollers, Circuit Design (KiCad), PCB Layout, Soldering, OnShape, Fusion 360</li>
-            <li><b>Languages:</b> Python, C, Java, MATLAB, JavaScript, SQL, C#/.NET, x86</li>
+            <li><b>Languages:</b> Python, C, Java, MATLAB, JavaScript, SQL, C#/.NET</li>
             <li><b>Frameworks & Tools:</b> Git, TensorFlow, PyTorch, OpenCV</li>
           </ul>
           
@@ -279,6 +279,22 @@
       <div class="container">
         
         <div class="row">
+            <!-- Hearing Aid --> 
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div style="margin-bottom: 500px;">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <a href="#" onclick="redirectHearingAid();">
+                    <img alt="music streaming app" src="/assets/img/hearingAidProfile.jpeg" style="height: 100%; width: 100%" class="activator" />
+                  </a>
+                </div>
+                  <div class="card-content">
+                    <a href="#" onclick="redirectHearingAid();" target="_blank" data-position="top" data-tooltip='Click for more info' class="card-title activator teal-text hoverline">Hearing Aid<i class="mdi-navigation-more-vert right"></i></a>
+                    <p>Analog aid for speech amplification with ambient noise dampening</p>
+                  </div>
+                </div>
+              </div>
+            </div>
             <!-- Breathalyzer Project -->
             <div class="col s12 m6 l4">
                 <div class="card medium">
@@ -475,50 +491,78 @@
       <h3 class="page-title white-text teal">Experience</h3>
       <div class="container">
 
-        <!-- Latest Experience -->
         <div class="card">
-          <div class="card-content">
-            <div class="row">
+          <div class="card-content-exp">
+            <div class="row" style="cursor: pointer;"> 
               <div class="col s12 m2">
-                <a href="https://www.delsys.com/" target="_blank"><img alt="Delsys logo"
-                    src="/assets/img/delsysLogo.jpg" class="responsive-img center-block" /></a>
+                  <a href="https://www.bostonscientific.com/en-US/medical-specialties/interventional-cardiology/coronary-interventions/how-to-ivus.html" 
+                  target="_blank">
+                      <img alt="Boston Scientific logo" src="/assets/img/bos_sci.png" class="responsive-img center-block" />
+                  </a>
               </div>
-              <!-- <div class="col s12 m10"> -->
               <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://www.delsys.com/" target="_blank"
-                      class="teal-text hoverline">Delsys</a></span>
-                </p>
+                <div class="role brown-text text-darken-2">R&D ML Intern</div>
+                  <p>
+                      <span class="card-title">
+                          <a href="https://www.bostonscientific.com/en-US/medical-specialties/interventional-cardiology/coronary-interventions/how-to-ivus.html" target="_blank"
+                          class="teal-text hoverline">Boston Scientific</a>
+                      </span>
+                  </p>
               </div>
             </div>
-            <div class="role brown-text text-darken-2">R&D Intern</div>
             <ul>
-              12-week internship at wearable sensor medical device company specializing in electrical and software aspects of sEMGs
-              <li>
-                Improved Python and MATLAB backend for muscle decomposition product by augmenting PyTorch/CUDA neural
-                network and proprietary HPF and JSON files with C#/.NET to prepare next generation product for end of year release
-              </li>
-              <li>
-                Generated and implemented Python thermal image processing algorithms to detect and analyze hand temperature and respiratory rate
-                using MediaPipe API and Fast Fourier Transforms that led to successful demonstration and grant approval of prototype
-              </li>
-              <li>
-                Validated prototype for a successful grant proposal by crafting transceiver-microcontroller circuit and data parsing
-                algorithm to collect and process data from custom pulse oximeter
-              </li>
-              <li>
-                <b>Tools:</b> Python, C, Microcontrollers, PyTorch, Tensorflow, MATLAB, C#
-              </li>
+              12-week internship for Machine Learning and Computer Vision with Interventional Cardiology
             </ul>
           </div>
           <div class="card-action">
-            <span>May 2023 - August 2023 | Boston, MA</span>
+            <span>May 2024 - August 2024 | Minneapolis, MN</span>
           </div>
         </div>
 
+        <div class="card">
+          <div class="card-content-exp">
+              <div class="row" style="cursor: pointer;"> <!-- Added cursor style for better UX -->
+                  <div class="col s12 m2">
+                      <a href="https://www.delsys.com/" target="_blank">
+                          <img alt="Delsys logo" src="/assets/img/delsysLogo.jpg" class="responsive-img center-block" />
+                      </a>
+                  </div>
+                  <div class="col s12 m10">
+                      <p>
+                          <span class="card-title">
+                              <a href="https://www.delsys.com/" target="_blank" class="teal-text hoverline">Delsys</a>
+                          </span>
+                      </p>
+                  </div>
+              </div>
+              <div class="role brown-text text-darken-2">R&D Intern</div>
+              <ul>
+                12-week internship at wearable sensor medical device company specializing in electrical and software aspects of sEMGs
+                <li>
+                  Improved Python and MATLAB backend for muscle decomposition product by augmenting PyTorch/CUDA neural
+                  network and proprietary HPF and JSON files with C#/.NET to prepare next generation product for end of year release
+                </li>
+                <li>
+                  Generated and implemented Python thermal image processing algorithms to detect and analyze hand temperature and respiratory rate
+                  using MediaPipe API and Fast Fourier Transforms that led to successful demonstration and grant approval of prototype
+                </li>
+                <li>
+                  Validated prototype for a successful grant proposal by crafting transceiver-microcontroller circuit and data parsing
+                  algorithm to collect and process data from custom pulse oximeter
+                </li>
+                <li>
+                  <b>Tools:</b> Python, C, Microcontrollers, PyTorch, Tensorflow, MATLAB, C#
+                </li>
+              </ul>
+          </div>
+          <div class="card-action">
+              <span>May 2023 - August 2023 | Boston, MA</span>
+          </div>
+      </div>
+
         
         <div class="card">
-          <div class="card-content">
+          <div class="card-content-exp">
             <div class="row">
               <div class="col s12 m2">
                 <a href="https://ece.duke.edu/faculty/james-morizio" target="_blank"><img alt="Morizio Lab logo"
@@ -554,7 +598,7 @@
         </div>
 
         <div class="card">
-            <div class="card-content">
+            <div class="card-content-exp">
               <div class="row">
                 <div class="col s12 m2">
                   <a href="https://sites.duke.edu/medesign/" target="_blank"><img alt="MEDesign logo"
@@ -568,7 +612,7 @@
                   </p>
                 </div>
               </div>
-              <div class="role brown-text text-darken-2">Vice President</div>
+              <div class="role brown-text text-darken-2">Co-President</div>
               <ul>
                 <li>
                 Manage $8000 budget to distribute among project teams, write grant and budget proposals, and present to Duke
@@ -593,7 +637,7 @@
           </div>
   
           <div class="card">
-            <div class="card-content">
+            <div class="card-content-exp">
               <div class="row">
                 <div class="col s12 m2">
                   <a href="https://www.youlab.bio" target="_blank"><img alt="You Lab logo"
@@ -614,22 +658,22 @@
                     annual Duke Undergraduate Research Symposium
                 </li>
                 <li>
-                  Created support vector regression ML algorithm using scikit-learn to predict biosensor concentration based on cell
+                  Created Support Vector Regression ML algorithm using scikit-learn to predict biosensor concentration based on cell
                   fluorescence output with algorithm achieving a R2 = 0.82 when predicted and real outputs compared
                 </li>
                 <li>
-                    Design wet lab experiments to collect training data on biosensor interactions by culturing and encapsulating bacteria
+                  Designed PyTorch VAE Convolutional Neural Net and Multi-layer Perceptron biosensor concentration prediction model with overall R^2 of 0.99
                 </li>
                 <li>
-                    <b>Tools:</b> Python, MATLAB, scikit-learn
+                    <b>Tools:</b> Python, MATLAB, scikit-learn, PyTorch
                   </li>
-                  <li>
+                  <!-- <li>
                     <b>Laboratory Skills:</b> Cell/bacterial Culture, Microscopy, Spectroscopy, PCR, Gibson Assembly, Transformation, Gel Electrophoresis
-                  </li>
+                  </li> -->
               </ul>
             </div>
             <div class="card-action">
-              <span>January 2022 - Present | Durham, NC</span>
+              <span>January 2022 - January 2024 | Durham, NC</span>
             </div>
           </div>
       </div>
@@ -746,7 +790,7 @@
                     <li>MedTech Prototyping Skills</li>
                     <li>Medical Instrumentation</li>
                     <li>Signal Processing</li>      
-                    <li>Data Structures and Algorithms</li>
+                    <li>Data Structures and Advanced Algorithm Design</li>
                     <li>Operating Systems</li>                                
                   </ul>
                   </p>
@@ -821,6 +865,17 @@
         closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
       })
     })
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var rows = document.querySelectorAll('.card .row');
+        rows.forEach(function(row) {
+            row.addEventListener('click', function() {
+                this.parentNode.classList.toggle('expanded');
+            });
+        });
+    });
   </script>
 </body>
 

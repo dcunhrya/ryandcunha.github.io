@@ -20,6 +20,41 @@
   height: auto;
 }
 
+.card-content-exp > *:not(.row) {
+  display: none;
+}
+
+.card-content-exp.expanded > * {
+  display: block;
+}
+
+.card .card-content-exp {
+  padding-bottom: 30px;
+}
+
+.card .card-content-exp p {
+  padding: 5px 0 0;
+}
+
+.card .card-content-exp .card-title {
+  line-height: 2.5rem;
+}
+
+.card.large .card-content-exp p {
+  color: inherit;
+  margin: 0;
+  padding: 30px 0;
+}
+
+#experience .card-content-exp .row {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.card.large .card-content-exp {
+  height: auto;
+}
+
 .tracker {
   /* visibility: hidden; */
   position: fixed;
@@ -750,6 +785,10 @@ small {
     padding: 0;
   }
   .card .card-content .card-title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .card .card-content-exp .card-title {
     font-size: 20px;
     line-height: 24px;
   }
