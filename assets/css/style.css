@@ -29,7 +29,7 @@
 }
 
 .card .card-content-exp {
-  padding-bottom: 30px;
+  padding: 30px;
 }
 
 .card .card-content-exp p {
@@ -48,7 +48,6 @@
 
 #experience .card-content-exp .row {
   border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
 }
 
 .card.large .card-content-exp {
