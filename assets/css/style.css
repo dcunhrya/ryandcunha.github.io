@@ -20,6 +20,18 @@
   height: auto;
 }
 
+.slide-in {
+  opacity: 0; /* Start elements as invisible */
+  transition: opacity 1s ease-out; /* Smooth transition for the opacity */
+  visibility: hidden; /* Start with elements hidden */
+}
+
+/* This class will be added via jQuery when the element is in view */
+.animate-in {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
 .card-content-exp > *:not(.row) {
   display: none;
 }
